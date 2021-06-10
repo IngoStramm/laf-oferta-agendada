@@ -1,0 +1,187 @@
+.loa {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(242, 242, 242, 1);
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    font-family: "azosans";
+    &.loa-archive {
+        .loa-archive-wrapper {
+            box-shadow: 1px 1px 5px 1px rgb(106, 106, 106);
+            background-color: rgba(255, 255, 255, 1);
+            padding: 80px 25px 110px;
+            border-radius: 10px;
+            align-items: flex-start;
+            align-content: flex-start;
+            h3 {
+                color: rgba(45, 44, 111, 1);
+                -webkit-background-clip: border-box;
+                background-clip: border-box;
+                background-image: none;
+                font-weight: 900;
+                font-family: "azosans";
+                font-size: 25px;
+            }
+
+            .loa-archive-content {
+                display: block;
+                margin: 30px auto 0;
+                .loa-archive-item {
+                    margin: 0 auto 40px;
+                    width: 100%;
+                    border: 0px solid rgba(138, 119, 119, 1);
+                    background-position: top center;
+                    background-attachment: scroll;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-image: url(/wp-content/plugins/laf-oferta-agendada/assets/images/top-ofertas-background.jpg);
+                    padding: 70% 0 20%;
+                    .loa-archive-item-content {
+                        display: block;
+                        text-align: center;
+                        padding: 20px 40px;
+                        h2 {
+                            font-size: 24px;
+                            color: #2d2c6f;
+                            font-weight: 700;
+                        }
+                        h4 {
+                            color: #ee7706;
+                            font-weight: bold;
+                            font-size: 16px;
+                        }
+                        p {
+                            color: #2d2c6f;
+                            font-size: 14px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.loa-taxonomy {
+        .loa-taxonomy-wrapper {
+            display: block;
+            max-width: 100%;
+            margin: auto;
+            padding: 40px 40px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .loa-taxonomy-text {
+            display: block;
+            margin: 20px auto 0;
+            text-align: center;
+            color: #666;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: "Public Sans", Arial, sans-serif;
+        }
+    }
+    .loa-img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+    }
+    .loa-btn {
+        padding: 10px 20px;
+        border: none;
+        background: #ee7706;
+        color: #fff;
+        border-radius: 7px;
+        font-size: 16px;
+        transition: all 0.3s;
+        &:active,
+        &:focus,
+        &:hover,
+        &:focus:hover {
+            background: #2d2c6f;
+            text-decoration: none;
+        }
+    }
+    .glider-contain {
+        padding: 0 25px;
+    }
+    .glider-prev,
+    .glider-next {
+        background-color: #ee7706;
+        border-radius: 100%;
+        color: #fff;
+        font-size: 0;
+        width: 40px;
+        height: 40px;
+        top: 50%;
+        margin-top: -20px;
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 11px;
+            height: 11px;
+            border: 2px solid transparent;
+            border-bottom-color: #fff;
+            border-right-color: #fff;
+            margin-top: -3.5px;
+            margin-left: -3.5px;
+        }
+    }
+    .glider-prev {
+        transform: rotateZ(135deg);
+    }
+    .glider-next {
+        transform: rotateZ(-45deg);
+    }
+}
+
+@media (min-width: 968px) {
+    .loa {
+        &.loa-archive {
+            display: flex;
+            flex-flow: wrap;
+            text-align: center;
+            .loa-archive-wrapper {
+                flex-grow: 1;
+                max-width: 860px;
+                margin: 80px auto;
+                padding-right: 150px;
+                padding-left: 150px;
+                .loa-archive-content {
+                    display: flex;
+                    align-items: stretch;
+                    justify-content: stretch;
+                    .loa-archive-item {
+                        width: 49%;
+                        background-size: contain;
+                        padding: 30% 0 10%;
+                        h2 {
+                            flex-grow: 1;
+                            font-size: 28px;
+                        }
+                        h4 {
+                            flex-grow: 1;
+                            font-size: 16px;
+                        }
+                        p {
+                            flex-grow: 1;
+                            font-size: 14px;
+                        }
+                        .loa-btn {
+                            flex-grow: 1;
+                        }
+                    }
+                }
+            }
+        }
+        &.loa-taxonomy {
+            .loa-taxonomy-wrapper {
+                max-width: 33.33%;
+            }
+        }
+    }
+}
