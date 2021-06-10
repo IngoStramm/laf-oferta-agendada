@@ -3,8 +3,8 @@
 /**
  * Plugin Name: Laf Oferta Agendada
  * Plugin URI: https://agencialaf.com
- * Description: Descrição do Laf Oferta Agendada.
- * Version: 0.0.2
+ * Description: Plugin para agendamento da publicação de ofertas para o site "Raiz Super Atacado".
+ * Version: 1.0.0
  * Author: Ingo Stramm
  * Text Domain: laf-oferta-agendada
  * License: GPLv2

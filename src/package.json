@@ -1,7 +1,7 @@
 {
     "name": "laf-oferta-agendada",
-    "description": "Descrição do Laf Oferta Agendada.",
-    "version": "0.0.2",
+    "description": "Plugin para agendamento da publicação de ofertas para o site \"Raiz Super Atacado\".",
+    "version": "1.0.0",
     "title": "Laf Oferta Agendada",
     "homepage": "https://agencialaf.com",
     "main": "Gruntfile.js",

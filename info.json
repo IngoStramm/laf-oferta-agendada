@@ -1,17 +1,17 @@
 {
     "name": "Laf Oferta Agendada",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "download_url": "https://github.com/IngoStramm/laf-oferta-agendada/raw/master/dist/laf-oferta-agendada.zip",
     "homepage": "https://agencialaf.com",
     "requires": "4.7",
-    "tested": "5.5",
+    "tested": "5.7.2",
     "last_updated": "2020-09-01 15:30:00",
     "upgrade_notice": "Atualização do Laf Oferta Agendada disponível",
     "author": "Ingo Stramm",
     "author_homepage": "https://agencialaf.com",
     "sections": {
-        "description": "Descrição do Laf Oferta Agendada.",
-        "installation": "A instalação deste plugin deve ser feita pelo Converte Fácil."
+        "description": "Plugin para agendamento da publicação de ofertas para o site \"Raiz Super Atacado\".",
+        "installation": "A instalação deste plugin deve ser feita pela Agência LAF."
     },
     "icons": {
         "1x": "https://github.com/IngoStramm/laf-oferta-agendada/raw/master/assets/images/plugin-banner-128x128.jpg",
