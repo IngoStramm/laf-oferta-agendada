@@ -1,6 +1,6 @@
 {
     "name": "Laf Oferta Agendada",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "download_url": "https://github.com/IngoStramm/laf-oferta-agendada/raw/master/dist/laf-oferta-agendada.zip",
     "homepage": "https://agencialaf.com",
     "requires": "4.7",

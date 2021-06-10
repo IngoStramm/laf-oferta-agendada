@@ -4,7 +4,7 @@
  * Plugin Name: Laf Oferta Agendada
  * Plugin URI: https://agencialaf.com
  * Description: Descrição do Laf Oferta Agendada.
- * Version: 0.0.1
+ * Version: 0.0.2
  * Author: Ingo Stramm
  * Text Domain: laf-oferta-agendada
  * License: GPLv2
